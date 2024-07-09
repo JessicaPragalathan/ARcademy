@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARcademy Dashboard</title>
+  <link rel="stylesheet" href="static/style.css"> </head>
+<body>
+  <header>
+    <h1>ARcademy</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+  <main>
+    <section class="subject" id="iot">
+      <h2>IoT (Internet of Things)</h2>
+      <a href="{{ url_for('run_iot_program') }}">Click here for help about Rapberry Pi</a>  </section>
+      </section>
+    
+      <section class="subject" id="music1">
+        <h2>Music</h2>
+        <a href="{{ url_for('run_music_program') }}">Click here for cool drums music</a> </section>
+        </section>
+
+    </main>
+    <main>
+        <section class="subject" id="data-structures">
+          <h2>Data Structures</h2>
+          </section>
+        
+        <section class="subject" id="machine-learning">
+          <h2>Machine Learning</h2>
+          </section>
+        
+        </main>
+  <script src="static/script.js"></script> </body>
+</html>
